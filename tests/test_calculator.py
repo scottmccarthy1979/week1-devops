@@ -1,8 +1,11 @@
 from src.calculator import add, div, mul, sub
 
 
-def test_add():
+def test_add_fail():
     assert add(1, 1) == 0
+
+def test_add():
+    assert add(1, 1) == 2
 
 
 def test_sub():
