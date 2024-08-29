@@ -29,9 +29,11 @@ if __name__ == "__main__":
     diff_result = sub(a, b)
     product_result = mul(a, b)
     div_result = div(a, b)
+    div_result2 = div(b, a)
 
     # Print results
     print(f"Sum of {a} and {b} is {sum_result}")
     print(f"Difference of {a} and {b} is {diff_result}")
     print(f"Product of {a} and {b} is {product_result}")
     print(f"Division of {a} and {b} is {div_result}")
+    print(f"Division of {b} and {a} is {div_result2}")
